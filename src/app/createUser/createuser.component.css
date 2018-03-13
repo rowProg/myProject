@@ -1,0 +1,100 @@
+/*Styles for createuser template*/
+h2 {
+  text-align: center;
+  color: grey;
+  margin-top: 70px; }
+
+form {
+  position: absolute;
+  left: 36%;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 355px;
+  height: 400px;
+  background: linear-gradient(to top, yellow, orange);
+  top: 250px; }
+  form input {
+    display: block;
+    width: 330px;
+    height: 30px;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px; }
+    form input:focus {
+      background-color: grey;
+      color: white;
+      font-size: 15px;
+      font-weight: 100; }
+  form label {
+    font-size: 19px;
+    color: blue; }
+  form .name {
+    position: absolute;
+    top: 40px;
+    left: 5px; }
+  form .telephone {
+    position: absolute;
+    top: 200px;
+    left: 5px; }
+  form .surname {
+    position: absolute;
+    top: 120px;
+    left: 5px; }
+  form .onel {
+    position: absolute;
+    top: 12px;
+    left: 10px; }
+  form .twol {
+    position: absolute;
+    top: 92px;
+    left: 10px; }
+  form .threel {
+    position: absolute;
+    top: 172px;
+    left: 10px; }
+  form .submit {
+    position: absolute;
+    top: 322px;
+    left: 8px;
+    height: 40px;
+    font-size: 17px;
+    background: linear-gradient(to top, green, red);
+    color: white; }
+    form .submit:hover {
+      background: linear-gradient(to top, red, green); }
+
+.success {
+  background-color: green;
+  height: 40px;
+  top: 18%;
+  opacity: 0.4;
+  text-align: center;
+  color: white;
+  width: 300px;
+  border-radius: 10px;
+  position: absolute;
+  display: none;
+  left: 38%; }
+  .success h3 {
+    position: absolute;
+    top: -10px;
+    left: 20px; }
+
+.error {
+  background-color: red;
+  height: 50px;
+  top: 17%;
+  opacity: 0.4;
+  text-align: center;
+  color: white;
+  width: 300px;
+  border-radius: 10px;
+  position: absolute;
+  display: none;
+  left: 38%; }
+  .error h3 {
+    position: absolute;
+    top: -15px;
+    left: 5px; }
+
+/*# sourceMappingURL=createuser.component.css.map */

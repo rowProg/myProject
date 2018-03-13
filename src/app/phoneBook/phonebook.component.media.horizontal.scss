@@ -1,0 +1,49 @@
+/*Styles for phonebook template under other devices with horizontal align*/
+@media screen and (min-width: 667px) and (max-width: 667px){
+	table{
+		width:90%;
+		left: 35px;
+	}
+}
+
+@media screen and (min-width: 732px) and (max-width: 736px){
+	table{
+		width:90%;
+		left: 35px;
+	}
+}
+
+@media screen and (min-width: 812px) and (max-width: 812px){
+	table{
+		width:90%;
+		left: 35px;
+	}
+}
+
+@media screen and (min-width: 568px) and (max-width: 568px){
+	table{
+		width:90%;
+		left: 30px;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 480px){
+	table{
+		width:90%;
+		left: 25px;
+	}
+}
+
+@media screen and (min-width: 640px) and (max-width: 640px){
+	table{
+		width:90%;
+		left: 30px;
+	}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1024px){
+	table{
+		width:70%;
+		left: 150px;
+	}
+}

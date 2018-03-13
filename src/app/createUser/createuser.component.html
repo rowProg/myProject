@@ -1,0 +1,19 @@
+<h2>Create new user</h2>
+
+<div class="success" #success>
+	<h3 *ngIf="state === 'true'">The user was created successful</h3>
+</div>
+
+<div class="error" #error>
+	<h3 *ngIf="state === 'false'">Error: not correct data or empty a field</h3>
+</div>
+
+<form #myForm name="myForm" (ngSubmit)="addUser(myForm, success, error)" novalidate>
+	<label for="name" class="onel">Name</label>
+	<input name ="name" class="name" required [(ngModel)]="user.name" />
+	<label for="surname" class="twol">Surname</label>
+	<input name="surname" class="surname" required [(ngModel)]="user.surname"/>
+	<label for="tel" class="threel">Telephone</label>
+	<input name="tel" class="telephone" required [placeholder]="p" [(ngModel)]="user.telephone"/>
+	<input type="submit" name="submit" class="submit" value="Create" />
+</form>

@@ -1,0 +1,111 @@
+/*Styles for deleteuser template*/
+
+@mixin successError{
+	opacity: 0.4;
+	text-align:center;
+	color: white;
+	width: 300px;
+	border-radius: 10px;
+	position: absolute;
+	display:none;
+	left: 38%;
+}
+
+h2{
+	text-align: center;
+	color:grey;
+	margin-top: 70px;
+}
+
+form{
+	position:absolute;
+	left:36%;
+	border:1px solid black;
+	border-radius:10px;
+	width: 355px;
+	height: 200px;
+	background: linear-gradient(to top, yellow, orange);
+
+	input{
+		display:block;
+		width:330px;
+		height:30px;
+		border-radius: 15px;
+		outline:none;
+		padding-left: 10px;
+
+		&:focus{
+			background-color: grey;
+			color:white;
+			font-size: 15px;
+			font-weight: 100;
+		}
+	}
+
+	label{
+		font-size: 19px;
+		color:blue;
+	}
+
+	.id{
+		position:absolute;
+		top:35px;
+		left:5px;
+	}
+
+	.idl{
+		position:absolute;
+		top:10px;
+		left:10px;
+	}
+
+	.submit{
+		position:absolute;
+		top:130px;
+		left:8px;
+		height:40px;
+		font-size: 17px;
+		background: linear-gradient(to top, green, red);
+		color:white;
+
+		&::hover{
+			background: linear-gradient(to top, red, green);
+		}
+	}
+}
+
+form{
+	position:absolute;
+	left:36%;
+	border:1px solid black;
+	border-radius:10px;
+	width: 355px;
+	height: 200px;
+	background: linear-gradient(to top, yellow, orange);
+}
+
+.success{
+	background-color: green;
+	height:40px;
+	top:18%;
+	@include successError;
+
+	h3{
+		position:absolute;
+		top:-10px;
+		left:20px;
+	}
+}
+
+.error{
+	background-color: red;
+	height:50px;
+	top:17%;
+	@include successError;
+
+	h3{
+		position:absolute;
+		top:-15px;
+		left:5px;
+	}
+}

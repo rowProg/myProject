@@ -1,0 +1,66 @@
+/*Styles for main template app under other devices with vertical align*/
+@media screen and (min-width: 375px) and (max-width: 375px){
+	.phoneBook{
+		margin-left:0px;
+		margin-top: 20px;
+		padding-left: 10px;
+	}
+
+	.phoneBook button{
+		margin-left: 0px;
+		height:45px;
+		width:85px;
+		float: left;
+	}	
+}
+
+@media screen and (min-width: 412px) and (max-width: 414px){
+	.phoneBook{
+		margin-left:0px;
+		margin-top: 20px;
+		padding-left: 30px;
+	}
+
+	.phoneBook button{
+		margin-left: 0px;
+		height:45px;
+		width:85px;
+		float: left;
+	}	
+}
+
+@media screen and (min-width: 320px) and (max-width: 320px){
+	.phoneBook{
+		margin-left:0px;
+		margin-top: 20px;
+	}
+
+	.phoneBook button{
+		margin-left: 5px;
+		height:50px;
+		width:70px;
+		float: left;
+		word-wrap: break-word;
+	}	
+}
+
+@media screen and (min-width: 360px) and (max-width: 360px){
+	.phoneBook{
+		margin-left:0px;
+		margin-top: 20px;
+	}
+
+	.phoneBook button{
+		margin-left: 0px;
+		height:50px;
+		width:85px;
+		float: left;
+		word-wrap: break-word;
+	}	
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px){
+	.phoneBook{
+		margin-left:20%;
+	}
+}

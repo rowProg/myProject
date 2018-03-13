@@ -1,0 +1,101 @@
+/*Styles for createuser template under other devices with horizontal align*/
+@media screen and (min-width: 667px) and (max-width: 667px) {
+  form {
+    left: 150px; }
+
+  .success {
+    top: 155px;
+    left: 190px; }
+
+  .success h3 {
+    left: 20px; }
+
+  .error {
+    top: 150px;
+    left: 185px; } }
+@media screen and (min-width: 732px) and (max-width: 736px) {
+  form {
+    left: 190px; }
+
+  .success {
+    top: 155px;
+    left: 225px; }
+
+  .success h3 {
+    left: 20px; }
+
+  .error {
+    top: 150px;
+    left: 225px; } }
+@media screen and (min-width: 812px) and (max-width: 812px) {
+  form {
+    left: 230px; }
+
+  .success {
+    top: 155px;
+    left: 260px; }
+
+  .success h3 {
+    left: 20px; }
+
+  .error {
+    top: 150px;
+    left: 260px; } }
+@media screen and (min-width: 568px) and (max-width: 568px) {
+  form {
+    left: 105px; }
+
+  .success {
+    top: 155px;
+    left: 130px; }
+
+  .success h3 {
+    left: 20px; }
+
+  .error {
+    top: 150px;
+    left: 135px; } }
+@media screen and (min-width: 480px) and (max-width: 480px) {
+  form {
+    left: 65px; }
+
+  .success {
+    top: 155px;
+    left: 90px; }
+
+  .success h3 {
+    left: 20px; }
+
+  .error {
+    top: 150px;
+    left: 85px; } }
+@media screen and (min-width: 640px) and (max-width: 640px) {
+  form {
+    left: 140px; }
+
+  .success {
+    top: 155px;
+    left: 175px; }
+
+  .success h3 {
+    left: 20px; }
+
+  .error {
+    top: 150px;
+    left: 170px; } }
+@media screen and (min-width: 1024px) and (max-width: 1024px) {
+  form {
+    left: 335px; }
+
+  .success {
+    top: 155px;
+    left: 362px; }
+
+  .success h3 {
+    left: 20px; }
+
+  .error {
+    top: 150px;
+    left: 362px; } }
+
+/*# sourceMappingURL=createuser.component.media.horizontal.css.map */
